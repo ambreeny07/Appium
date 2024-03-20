@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-11T19:00:37 PKT" name="Volopa Android Automation" finished-at="2023-08-11T19:02:19 PKT" duration-ms="101350">
+    <groups>
+    </groups>
+    <test started-at="2023-08-11T19:00:37 PKT" name="Vested Finance Android Automation - Tests" finished-at="2023-08-11T19:02:19 PKT" duration-ms="101350">
+      <class name="com.volopa.test.Test_Login">
+        <test-method signature="LoginWithInvalidCredentials()[pri:2, instance:com.volopa.test.Test_Login@445b295b]" started-at="2023-08-11T19:00:37 PKT" name="LoginWithInvalidCredentials" finished-at="2023-08-11T19:01:27 PKT" duration-ms="50051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidCredentials -->
+        <test-method signature="LoginWithValidCredentials()[pri:1, instance:com.volopa.test.Test_Login@445b295b]" started-at="2023-08-11T19:01:30 PKT" name="LoginWithValidCredentials" finished-at="2023-08-11T19:02:16 PKT" duration-ms="45385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.volopa.test.Test_Login@445b295b]" started-at="2023-08-11T19:02:19 PKT" name="tearDown" finished-at="2023-08-11T19:02:19 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.volopa.test.Test_Login -->
+    </test> <!-- Vested Finance Android Automation - Tests -->
+  </suite> <!-- Volopa Android Automation -->
+</testng-results>

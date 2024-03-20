@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Volopa Android Automation]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.volopa.listeners.ExtentListeners"/>
+    <listener class-name="com.volopa.errorCollectors.TestListenerAdapter"/>
+    <listener class-name="com.volopa.listeners.TestFilterListener"/>
+    <listener class-name="com.volopa.listeners.AnnotationTransformer"/>
+    <listener class-name="com.volopa.listeners.MyTestListenerAdapter"/>
+  </listeners>
+  <test thread-count="5" name="Vested Finance Android Automation - Tests(failed)">
+    <classes>
+      <class name="com.volopa.test.Wallet_Dashboard">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyUserCanConvertCurrencies"/>
+        </methods>
+      </class> <!-- com.volopa.test.Wallet_Dashboard -->
+    </classes>
+  </test> <!-- Vested Finance Android Automation - Tests(failed) -->
+</suite> <!-- Failed suite [Volopa Android Automation] -->

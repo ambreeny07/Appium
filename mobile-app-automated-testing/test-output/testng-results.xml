@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-21T05:08:00 PKT" name="Volopa Android Automation" finished-at="2023-08-21T05:09:17 PKT" duration-ms="76948">
+    <groups>
+    </groups>
+    <test started-at="2023-08-21T05:08:00 PKT" name="Vested Finance Android Automation - Tests" finished-at="2023-08-21T05:09:17 PKT" duration-ms="76948">
+      <class name="com.volopa.test.Test_Login">
+        <test-method signature="LoginWithInvalidCredentials()[pri:2, instance:com.volopa.test.Test_Login@49049a04]" started-at="2023-08-21T05:08:00 PKT" name="LoginWithInvalidCredentials" finished-at="2023-08-21T05:08:27 PKT" duration-ms="27599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidCredentials -->
+        <test-method signature="LoginWithValidCredentials()[pri:1, instance:com.volopa.test.Test_Login@49049a04]" started-at="2023-08-21T05:08:29 PKT" name="LoginWithValidCredentials" finished-at="2023-08-21T05:08:57 PKT" duration-ms="27644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+        <test-method signature="VerifyErrorMessagesWithEmptyFiels()[pri:3, instance:com.volopa.test.Test_Login@49049a04]" started-at="2023-08-21T05:08:58 PKT" name="VerifyErrorMessagesWithEmptyFiels" finished-at="2023-08-21T05:09:16 PKT" duration-ms="17688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyErrorMessagesWithEmptyFiels -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.volopa.test.Test_Login@49049a04]" started-at="2023-08-21T05:09:17 PKT" name="tearDown" finished-at="2023-08-21T05:09:17 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.volopa.test.Test_Login -->
+    </test> <!-- Vested Finance Android Automation - Tests -->
+  </suite> <!-- Volopa Android Automation -->
+</testng-results>
